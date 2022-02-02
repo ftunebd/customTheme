@@ -4,3 +4,6 @@ header .title {
   font-size: 18px;
   text-transform: uppercase;
 }
+h1{ color:red}
+p{ color:blue}
+a{ text-decoration:none}
