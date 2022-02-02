@@ -1,5 +1,6 @@
-header{
-    background:#fff;
-    color:#000;
-    font-size: 18px;
+header .title {
+  background: #11bf55;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
 }
