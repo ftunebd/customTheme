@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <!DOCTYPE html>
+    <html lang='en-US' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr' xmlns:og='http://ogp.me/ns#'>
+    <head>
+        <b:include data='blog' name='all-head-content' />
+
+        <title>
+            <data:blog.pageTitle/>
+        </title>
+
+        <meta content='width=device-width, initial-scale=1' name='viewport' />
+
+        <b:skin>
+            <![CDATA[  
+            /* Custom CSS code goes here... */
+            ]]>
+        </b:skin>
+    </head>
+    <body>
+        <div id="blog-wrapper">
+<!--Start header section-->
+            <header>
+                <b:section class='header' id='header' maxwidgets='1' showaddelement='no'>
+                    <b:widget id='Header1' locked='true' title='' type='Header'></b:widget>
+                </b:section>
+            </header>
+<!--Start content section-->
+            <div id="content-wrapper">
+                <div class="content-table">
+                    <div class="content-row">
+<!--Start blog post section-->
+                        <b:section class='main column' id='main' showaddelement='yes'>
+                            <b:widget id='Blog1' locked='true' title='Blog Posts Section' type='Blog' />
+                        </b:section>
+<!--Start side-bar section-->
+                        <aside class="column">
+                            <b:section class='sidebar' id='sidebar' maxwidgets='' showaddelement='yes'>
+                            </b:section>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+<!--Start footer section-->
+            <footer>
+                <div>
+                    Copyright © 2019 <strong><data:blog.title/></strong>
+                </div>
+            </footer>
+         </div>
+    </body>
+    </html>
